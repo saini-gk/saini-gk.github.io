@@ -43,7 +43,7 @@ Feel free to connect with me or drop me a message:
 
 - ✉️ **Email**: [gunjnkumar07@gmail.com](mailto:gunjnkumar07@gmail.com)
 - 🔗 **LinkedIn**: [sainigk](https://www.linkedin.com/in/sainigk)
-- 🔗 **GitHub**: [saini-gk](https://github.com/saini-gk)
+- 🔗 **LeetCode**: [sainigk](https://leetcode.com/sainigk)
 
 ## 📝 License
 
