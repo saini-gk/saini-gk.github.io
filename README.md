@@ -32,9 +32,9 @@ I am currently pursuing a B.Tech. in Computer Science and Engineering at the Cen
 
 ## 🎓 Certifications
 
-- 🧠 [Deep Learning](link)
+- 🧠 [Deep Learning](https://drive.google.com/file/d/1sX3G4_GqMwIT860IWBYL4zY4QtlksEA_/view?usp=drivesdk)
   - Computer Society of India, Kolkata | Aug 2023
-- 🤖 [Machine Learning](link)
+- 🤖 [Machine Learning](https://drive.google.com/file/d/1sX3G4_GqMwIT860IWBYL4zY4QtlksEA_/view)
   - Computer Society of India, Kolkata | May 2023
 
 ## 📞 Contact
