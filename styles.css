@@ -41,6 +41,11 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a:hover {
+  color: #000; /* Change the color to your desired color */
+}
+
+
 section {
     padding: 40px;
 }
