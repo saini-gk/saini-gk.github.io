@@ -141,3 +141,17 @@ footer p {
 .contact-links a {
   margin: 0 10px; /* Add some space between the links */
 }
+
+
+/* Add hover effect for icons */
+.contact-links a:hover img {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+
+/* Footer styling */
+footer {
+  padding: 20px 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
