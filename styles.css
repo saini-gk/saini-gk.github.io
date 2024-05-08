@@ -54,17 +54,13 @@ color: #000; /* Change the color to your desired color */
       margin-right: 10px; /* Reduce margin for smaller screens */
       margin-bottom: 5px; /* Reduce space between items */
   }
-  .timeline-item {
-      flex-direction: row; /* Change direction for smaller screens */
-  }
-  .timeline-content {
-      padding-left: 0;
-      padding-top: 20px; /* Add space between icon and content */
-      text-align: center; /* Center align content */
-  }
-  .timeline-icon {
-      margin-right: 20px; /* Add space between icon and content */
-  }
+    .timeline-item {
+        flex-direction: column; /* Change direction for smaller screens */
+        align-items: center; /* Center align items */
+    }
+    .timeline-icon {
+        margin-bottom: 20px; /* Add space between icon and content */
+    }
 }
 
 section {
@@ -115,23 +111,26 @@ a:hover {
   padding: 40px 0;
   display: flex;
   flex-direction: column;
+  margin-bottom: 40px;   
 }
 
 .timeline-item {
-  flex-direction: column;
-  position: relative;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: row; /* Arrange timeline content horizontally */
   padding: 20px;
   background: linear-gradient(to right, #ff7e5f, #feb47b);
   border-radius: 10px;
-  margin-bottom: 40px;
-  display: flex;
+  margin-bottom: 20px; /* Reduce bottom margin */
 }
 
 .timeline-content {
   padding-left: 20px;
   color: #fff
-  flex-grow: 1;
+  flex: 1;
+}
+
+.timeline-icon {
+    margin-right: 20px; /* Add space between icon and content */
 }
 
 .timeline-item:hover {
