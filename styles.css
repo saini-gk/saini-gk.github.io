@@ -103,8 +103,6 @@ a:hover {
   margin-bottom: 40px;
   display: flex;
   align-items: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Example shadow effect */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
 }
 
 .timeline-content {
@@ -114,8 +112,6 @@ a:hover {
 
 .timeline-item:hover {
   background: linear-gradient(to right, #ff7e5f, #8C6EC4);
-  transform: translateY(-5px);
-  transition: all 0.3s ease;
 }
 
 .timeline-item h3 {
