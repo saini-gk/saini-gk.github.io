@@ -4,7 +4,7 @@ body {
   padding: 0;
   background-color: #f5f5f5;
   color: #333;
-  scroll-behavior: smooth; /* This line enables smooth scrolling */
+  scroll-behavior: smooth; 
 }
 
 
@@ -30,13 +30,13 @@ nav ul {
   list-style: none;
   padding: 0;
   display: flex;
-  flex-wrap: wrap; /* Allow items to wrap to multiple lines */
-  justify-content: center; /* Center align items horizontally */
+  flex-wrap: wrap; 
+  justify-content: center; 
 }
 
 nav ul li {
   margin-right: 20px;
-  margin-bottom: 10px; /* Add space between items */
+  margin-bottom: 10px; 
 }
 
 nav ul li a {
@@ -46,13 +46,13 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-color: #000; /* Change the color to your desired color */
+color: #000;
 }
 
 @media screen and (max-width: 768px) {
   nav ul li {
-      margin-right: 10px; /* Reduce margin for smaller screens */
-      margin-bottom: 5px; /* Reduce space between items */
+      margin-right: 10px; 
+      margin-bottom: 5px; 
   }
 }
 
@@ -84,19 +84,19 @@ section ul li p {
 }
 
 .scrollable-section {
-  max-height: 500px; /* Adjust the max height as needed */
-  overflow-y: auto; /* Enable vertical scrolling */
-  scroll-behavior: smooth; /* Optionally adjust scroll behavior */
+  max-height: 500px; 
+  overflow-y: auto; 
+  scroll-behavior: smooth; 
 }
 
 
 a {
-  color: #004ef6; /* Blue color as an example */
-  text-decoration: none; /* Remove underline by default */
+  color: #004ef6; /
+  text-decoration: none; 
 }
 
 a:hover {
-  color: #0056b3; /* Darker shade of blue on hover */
+  color: #0056b3; 
 }
 
 .timeline {
@@ -135,46 +135,36 @@ margin-bottom: 10px;
 }
 
 footer {
-text-align: center; /* Center align the text */
+text-align: center; 
 }
 
 footer p {
-margin: 0; /* Remove default margin */
+margin: 0; 
 }
 
 
 #contact {
-text-align: center; /* Center align the text */
+text-align: center;
 }
 
 .contact-links {
 display: flex;
-justify-content: center; /* Center align the links horizontally */
-margin-top: 20px; /* Add some margin for spacing */
+justify-content: center; 
+margin-top: 20px; 
 }
 
 .contact-links a {
-margin: 0 10px; /* Add some space between the links */
+  margin: 0 10px; 
 }
 
-
-/* Add hover effect for icons */
 .contact-links a:hover img {
-transform: scale(1.4);
-transition: transform 0.3s ease;
+  transform: scale(1.4);
+  transition: transform 0.3s ease;
 }
 
-/* Footer styling */
 footer {
-padding: 20px 0;
-background-color: rgba(0, 0, 0, 0.6);
-color: #fff;
-}
-
-/* Style for certification images */
-#certifications img {
-  max-width: 100%; /* Ensure the image doesn't exceed its container width */
-  height: auto; /* Maintain the aspect ratio */
-  display: block; /* Ensure proper spacing */
-  margin: 0 auto; /* Center the image horizontally */
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: #fff; 
+    text-align: center; 
 }
