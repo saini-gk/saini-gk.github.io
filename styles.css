@@ -1,162 +1,180 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5;
-    color: #333;
-    scroll-behavior: smooth; /* This line enables smooth scrolling */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+  scroll-behavior: smooth; /* This line enables smooth scrolling */
 }
 
 
 header {
-    padding: 20px 0;
-    text-align: center;
-    background: linear-gradient(to right, #333, #666);
+  padding: 20px 0;
+  text-align: center;
+  background: linear-gradient(to right, #333, #666);
 }
 
 h1 {
-    margin: 0;
-    font-size: 2.5em;
-    font-weight: bold;
-    color: #fff;
+  margin: 0;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #fff;
 }
 
 p {
-    margin: 5px 0;
-    color: #000000;
+  margin: 5px 0;
+  color: #000000;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to multiple lines */
+  justify-content: center; /* Center align items horizontally */
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px; /* Add space between items */
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-  color: #000; /* Change the color to your desired color */
+color: #000; /* Change the color to your desired color */
 }
 
+@media screen and (max-width: 768px) {
+  nav ul li {
+      margin-right: 10px; /* Reduce margin for smaller screens */
+      margin-bottom: 5px; /* Reduce space between items */
+  }
+}
 
 section {
-    padding: 40px;
+  padding: 40px;
 }
 
 section h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    color: #333;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
 }
 
 section ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 section ul li {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 section ul li strong {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 section ul li p {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 
 .scrollable-section {
-    max-height: 500px; /* Adjust the max height as needed */
-    overflow-y: auto; /* Enable vertical scrolling */
-    scroll-behavior: smooth; /* Optionally adjust scroll behavior */
+  max-height: 500px; /* Adjust the max height as needed */
+  overflow-y: auto; /* Enable vertical scrolling */
+  scroll-behavior: smooth; /* Optionally adjust scroll behavior */
 }
 
 
 a {
-    color: #004ef6; /* Blue color as an example */
-    text-decoration: none; /* Remove underline by default */
+  color: #004ef6; /* Blue color as an example */
+  text-decoration: none; /* Remove underline by default */
 }
 
 a:hover {
-    color: #0056b3; /* Darker shade of blue on hover */
+  color: #0056b3; /* Darker shade of blue on hover */
 }
 
 .timeline {
-  position: relative;
-  padding: 40px 0;
+position: relative;
+padding: 40px 0;
 }
 
 .timeline-item {
-  position: relative;
-  margin: 0 auto;
-  padding: 20px;
-  background: linear-gradient(to right, #ff7e5f, #feb47b);
-  border-radius: 10px;
-  margin-bottom: 40px;
-  display: flex;
-  align-items: center;
+position: relative;
+margin: 0 auto;
+padding: 20px;
+background: linear-gradient(to right, #ff7e5f, #feb47b);
+border-radius: 10px;
+margin-bottom: 40px;
+display: flex;
+align-items: center;
 }
 
 .timeline-content {
-  padding-left: 20px;
-  color: #fff
+padding-left: 20px;
+color: #fff
 }
 
 .timeline-item:hover {
-  background: linear-gradient(to right, #ff7e5f, #8C6EC4);
-  transform: translateY(-5px);
-  transition: all 0.3s ease;
+background: linear-gradient(to right, #ff7e5f, #8C6EC4);
+transform: translateY(-5px);
+transition: all 0.3s ease;
 }
 
 .timeline-item h3 {
-  margin-top: 0;
+margin-top: 0;
 }
 
 .timeline-item p {
-  margin-bottom: 10px;
+margin-bottom: 10px;
 }
 
 footer {
-  text-align: center; /* Center align the text */
+text-align: center; /* Center align the text */
 }
 
 footer p {
-  margin: 0; /* Remove default margin */
+margin: 0; /* Remove default margin */
 }
 
 
 #contact {
-  text-align: center; /* Center align the text */
+text-align: center; /* Center align the text */
 }
 
 .contact-links {
-  display: flex;
-  justify-content: center; /* Center align the links horizontally */
-  margin-top: 20px; /* Add some margin for spacing */
+display: flex;
+justify-content: center; /* Center align the links horizontally */
+margin-top: 20px; /* Add some margin for spacing */
 }
 
 .contact-links a {
-  margin: 0 10px; /* Add some space between the links */
+margin: 0 10px; /* Add some space between the links */
 }
 
 
 /* Add hover effect for icons */
 .contact-links a:hover img {
-  transform: scale(1.4);
-  transition: transform 0.3s ease;
+transform: scale(1.4);
+transition: transform 0.3s ease;
 }
 
 /* Footer styling */
 footer {
-  padding: 20px 0;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: #fff;
+padding: 20px 0;
+background-color: rgba(0, 0, 0, 0.6);
+color: #fff;
+}
+
+/* Style for certification images */
+#certifications img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container width */
+  height: auto; /* Maintain the aspect ratio */
+  display: block; /* Ensure proper spacing */
+  margin: 0 auto; /* Center the image horizontally */
 }
