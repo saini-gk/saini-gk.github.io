@@ -12,16 +12,6 @@ I am currently pursuing a B.Tech. in Computer Science and Engineering at the Cen
 - **Tools & Technologies**: GitHub ![GitHub](https://img.icons8.com/ios-glyphs/30/000000/github.png), Google Cloud Platform, LinuxOS ![Linux](https://img.icons8.com/color/48/000000/linux.png)
 - **Problem Solving**: Solved 130+ LeetCode problems.<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="sainigk" height="30" width="40" />
 
-## 💼 Experience
-
-### 🎥 Video Editor - GDSC CUH
-- Aug 2023 - Present
-- As a video editor at GDSC CUH, I edit and enhance videos to make them visually appealing to viewers. I utilize software tools and various techniques to ensure high-quality results.
-
-### 💻 Software Developer Intern - Indraprastha Institute of Information Sciences
-- Jul 2023 - Aug 2023
-- Developed software applications using PHP, MySQL, and HTML. Designed a Library Management System and gained proficiency in managing databases with MySQL.
-
 ## 🚀 Projects
 
 ### 🤖 [Discord Bot](https://github.com/saini-gk/Discord-Bot)
@@ -29,13 +19,6 @@ I am currently pursuing a B.Tech. in Computer Science and Engineering at the Cen
 
 ### 📚 [Library Management System](https://github.com/saini-gk/Library-Management-System)
 - Developed a Library Management System using PHP, MySQL, and HTML with Ampps as a local server.
-
-## 🎓 Certifications
-
-- 🧠 [Deep Learning](https://drive.google.com/file/d/1sc3cTaIqNfeBFbaG13_dqPahcP75N0ma/view)
-  - Computer Society of India, Kolkata | Aug 2023
-- 🤖 [Machine Learning](https://drive.google.com/file/d/1sX3G4_GqMwIT860IWBYL4zY4QtlksEA_/view)
-  - Computer Society of India, Kolkata | May 2023
 
 ## 📞 Contact
 
