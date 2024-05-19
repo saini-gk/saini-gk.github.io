@@ -14,10 +14,10 @@ I am currently pursuing a B.Tech. in Computer Science and Engineering at the Cen
 
 ## 🚀 Projects
 
-### 🤖 [Discord Bot](https://github.com/saini-gk/Discord-Bot)
+### 🤖 [Discord Bot](https://github.com/saini-gk/LuminexiaBot)
 - Am presently working on making my own Discord Bot work in my Discord Server.
 
-### 📚 [Library Management System](https://github.com/saini-gk/Library-Management-System)
+### 📚 [Library Management System](https://github.com/saini-gk/Librix)
 - Developed a Library Management System using PHP, MySQL, and HTML with Ampps as a local server.
 
 ## 📞 Contact
