@@ -120,7 +120,6 @@ color: #fff
 }
 
 .timeline-item:hover {
-background: linear-gradient(to right, #ff7e5f, #8C6EC4);
 transform: translateY(-5px);
 transition: all 0.3s ease;
 }
