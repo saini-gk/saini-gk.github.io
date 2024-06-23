@@ -10,7 +10,7 @@ I am currently pursuing a B.Tech. in Computer Science and Engineering at the Cen
 
 - **Programming Languages**: C/C++ ![C++](https://img.icons8.com/color/48/000000/c-plus-plus-logo.png), PHP ![PHP](https://img.icons8.com/officel/40/000000/php-logo.png), Python ![Python](https://img.icons8.com/color/48/000000/python.png), HTML ![HTML](https://img.icons8.com/color/48/000000/html-5.png), MySQL ![MySQL](https://img.icons8.com/nolan/64/mysql.png)
 - **Tools & Technologies**: GitHub ![GitHub](https://img.icons8.com/ios-glyphs/30/000000/github.png), Google Cloud Platform, LinuxOS ![Linux](https://img.icons8.com/color/48/000000/linux.png)
-- **Problem Solving**: Solved 130+ LeetCode problems.<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="sainigk" height="30" width="40" />
+- **Problem Solving**: Solved 195+ LeetCode problems.<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="sainigk" height="30" width="40" />
 
 ## 🚀 Projects
 
