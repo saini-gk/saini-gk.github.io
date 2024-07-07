@@ -14,10 +14,13 @@ I am currently pursuing a B.Tech. in Computer Science and Engineering at the Cen
 
 ## 🚀 Projects
 
-### 🤖 [Discord Bot](https://github.com/saini-gk/LuminexiaBot)
+### 🤖 [DetectronX](https://github.com/saini-gk/DetectronX)
+- DetectronX is a deep learning-based object detection project using TensorFlow, Keras, and CV2. It allows you to train and deploy models for detecting objects in images.
+
+### 🤖 [MetaMingle](https://github.com/saini-gk/MetaMingle)
 - Am presently working on making my own Discord Bot work in my Discord Server.
 
-### 📚 [Library Management System](https://github.com/saini-gk/Librix)
+### 📚 [Librix](https://github.com/saini-gk/Librix)
 - Developed a Library Management System using PHP, MySQL, and HTML with Ampps as a local server.
 
 ## 📞 Contact
