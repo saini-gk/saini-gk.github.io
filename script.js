@@ -1,75 +1,34 @@
 // Smooth scrolling for anchor links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', (e) => {
-      e.preventDefault();
-
-      const targetId = anchor.getAttribute('href');
-      const target = document.querySelector(targetId);
-
-      if (target) {
-          target.scrollIntoView({
-              behavior: 'smooth'
-          });
-      }
-  });
-});
-
-// Animation effects on hover for icons
-const iconsContainer = document.querySelector('.icons-container');
-
-iconsContainer.addEventListener('mouseover', (e) => {
-  if (e.target.classList.contains('icon')) {
-      const icon = e.target;
-      icon.style.transform = `scale(1.2)`;
-      icon.style.transition = `transform 0.3s ease`;
-  }
-});
-
-iconsContainer.addEventListener('mouseout', (e) => {
-  if (e.target.classList.contains('icon')) {
-      const icon = e.target;
-      icon.style.transform = `scale(1)`;
-      icon.style.transition = `transform 0.3s ease`;
-  }
-});
-
-// Function to handle smooth scrolling for anchor links
-const handleSmoothScroll = (e) => {
+const smoothScroll = (e) => {
   e.preventDefault();
-
   const targetId = e.target.getAttribute('href');
   const target = document.querySelector(targetId);
 
   if (target) {
-      target.scrollIntoView({
-          behavior: 'smooth'
-      });
+    target.scrollIntoView({ behavior: 'smooth' });
   }
 };
 
 // Add event listener for smooth scrolling to anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', handleSmoothScroll);
+  anchor.addEventListener('click', smoothScroll);
 });
 
-// Function to handle animation effects on hover for icons
+// Function to handle icon scaling on hover
 const handleIconHover = (e) => {
   if (e.target.classList.contains('icon')) {
-      const icon = e.target;
-      icon.style.transform = `scale(1.2)`;
-      icon.style.transition = `transform 0.3s ease`;
+    e.target.style.transform = 'scale(1.2)';
   }
 };
 
-// Function to handle animation effects on mouseout for icons
-const handleIconMouseOut = (e) => {
+// Function to reset icon scaling on mouse out
+const resetIconScale = (e) => {
   if (e.target.classList.contains('icon')) {
-      const icon = e.target;
-      icon.style.transform = `scale(1)`;
-      icon.style.transition = `transform 0.3s ease`;
+    e.target.style.transform = 'scale(1)';
   }
 };
 
-// Add event listeners for animation effects to the container element
+// Add event listeners for icon hover effects
+const iconsContainer = document.querySelector('.icons-container');
 iconsContainer.addEventListener('mouseover', handleIconHover);
-iconsContainer.addEventListener('mouseout', handleIconMouseOut);
+iconsContainer.addEventListener('mouseout', resetIconScale);
