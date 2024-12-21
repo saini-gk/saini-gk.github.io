@@ -1,186 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
-    <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Gunjan Kumar - Portfolio</title> 
-    <link rel="icon" type="image/png" href="/PNG Files/port.png"> 
-    <!-- Bootstrap CSS -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gunjan Kumar - Portfolio</title>
+    <link rel="icon" href="PNG Files/port.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS (optional for layout) -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css"> 
-</head> 
-<body> 
-    <header class="bg-gradient py-4">
-        <div class="container">
-            <nav class="navbar navbar-expand-md navbar-dark">
-                <a class="navbar-brand" href="#">Gunjan Kumar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#skills">Technical Skills</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
+</head>
+
+<body>
+    <header class="header-section">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">Gunjan Kumar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header-content text-center">
+            <h1>Hi, I'm Gunjan Kumar</h1>
+            <p>A Passionate Developer & AI Enthusiast</p>
+            <a href="#projects" class="btn btn-primary btn-lg">View My Work</a>
         </div>
     </header>
 
-    <div class="container mt-5">
-        <div class="timeline"> 
-            <div class="timeline-item"> 
-                <div class="timeline-icon"><img src="/PNG Files/edu.png" width="50" height="50"></div> 
-                <div class="timeline-content"> 
-                    <section id="education"> 
-                        <h2>Education</h2> 
-                        <ul> 
-                            <li> 
-                                <strong>Central University of Haryana</strong> 
-                                <p>B.Tech. Computer Science and Engineering | 2021 - Present</p> 
-                            </li> 
-                            <li> 
-                                <strong>MLS DAV Public School</strong> 
-                                <p>12th | 2020-2021</p> 
-                                <p>10th | 2018-2019</p> 
-                            </li> 
-                        </ul> 
-                    </section> 
-                </div> 
-            </div> 
+    <!-- About Me Section -->
+    <section id="about" class="about-section text-center py-5">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p>Hello! I'm Gunjan Kumar, a computer science student with a keen interest in Artificial Intelligence, Machine Learning, and full-stack web development. I specialize in creating intelligent systems and building full-fledged applications. In my free time, I love contributing to open-source projects and learning new technologies.</p>
+            <p>Feel free to explore my work below and get in touch with me for potential collaborations or opportunities!</p>
         </div>
+    </section>
 
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="timeline-icon"><img src="/PNG Files/exp.png" width="50" height="50"></div>
-                <div class="timeline-content">
-                    <section id="experience">
-                        <h2>Experience</h2>
-                        <ul>
-                            <li>
-                                <h3><a href="https://drive.google.com/file/d/1uhOvBb6hZDzZLY_uQylFVjla8r-c9vlY/view?usp=drivesdk">Summer Intern</a></h3>
-                                <p>Indira Gandhi Delhi Technical University for Women | Jun 2024 - Present</p>
-                                <ul>
-                                    <li>• Developed a strong foundation in mathematics and statistics concepts relevant to computer vision and deep learning.</li>
-                                    <li>• Tech Stacks: Python, OpenCV, TensorFlow, NumPy</li>
-                                    <li>• Project: <a href="#detectronx">DetectronX</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h3><a href="https://drive.google.com/file/d/1sagiL_pgoyR-mafY0ljrhiTZDt_an9Nc/view?usp=drivesdk">Video Editor</a></h3>
-                                <p>GDSC CUH - Google Developer Student Club | Aug 2023 - Present</p>
-                                <ul>
-                                    <li>• Edit and enhance videos for visual appeal.</li>
-                                    <li>• Stay updated on emerging trends in video editing.</li>
-                                    <li>• Tool: Davinci Resolve</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h3><a href="https://drive.google.com/file/d/1sJK-l7R7kFUuCAfsTv2Gb9tiGY8BcuR-/view?usp=drivesdk">Software Developer Intern</a></h3>
-                                <p>Indraprastha Institute of Information Sciences | Jul 2023 - Aug 2023</p>
-                                <ul>
-                                    <li>• Developed software applications using PHP, MySQL, and HTML.</li>
-                                    <li>• Gained proficiency in managing databases with MySQL.</li>
-                                    <li>• Project: <a href="#librix">Librix</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </section>
+    <!-- Project Section -->
+    <section id="projects" class="portfolio-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center">Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="portfolio-item">
+                        <img src="PNG Files\DetectronX.jpg" class="img-fluid" alt="Project 1">
+                        <div class="portfolio-overlay">
+                            <h4><a href="https://github.com/saini-gk/DetectronX">DetectronX</a></h4>
+                            <p>Object Detection System built using TensorFlow, Keras, and OpenCV. Optimized for real-time performance on large datasets.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfolio-item">
+                        <img src="PNG Files\GenAge-Nexus.jpg" class="img-fluid" alt="Project 2">
+                        <div class="portfolio-overlay">
+                            <h4><a href="https://github.com/saini-gk/GenAge-Nexus">GenAge Nexus</a></h4>
+                            <p>Real-time age and gender classification using OpenCV and SSD. Achieved 85% accuracy on facial recognition.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfolio-item">
+                        <img src="PNG Files\MetaMingle.jpg" class="img-fluid" alt="Project 3">
+                        <div class="portfolio-overlay">
+                            <h4><a href="https://github.com/saini-gk/MetaMingle">MetaMingle</a></h4>
+                            <p>A Discord bot for managing servers and automating tasks, making it easier for community managers to handle day-to-day operations.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfolio-item">
+                        <img src="PNG Files\Librix.jpg" class="img-fluid" alt="Project 5">
+                        <div class="portfolio-overlay">
+                            <h4><a href="https://github.com/saini-gk/Librix" target="_blank">Librix</a></h4>
+                            <p>Built a Library Management System using PHP, MySQL, and HTML, improving transaction processing speed by 25%. Optimized backend, reducing user registration time by 50%.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfolio-item">
+                        <img src="PNG Files\VisionNova.jpg" class="img-fluid" alt="Project 4">
+                        <div class="portfolio-overlay">
+                            <h4><a href="https://github.com/saini-gk/VisionNova" target="_blank">VisionNova</a></h4>
+                            <p>A Python-based image enhancer that uses deep learning techniques to restore corrupted images.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+    </section>
 
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="timeline-icon"><img src="/PNG Files/pro.png" width="50" height="50"></div>
-                <div class="timeline-content">
-                    <section id="projects">
-                        <h2>Projects</h2>
-                        <ul>
-                            <li>
-                                <h3><a href="https://github.com/saini-gk/DetectronX" id="detectronx">DetectronX</a></h3>
-                                <ul>
-                                    <li>• Deep Learning model for object detection.</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h3><a href="https://github.com/saini-gk/MetaMingle">MetaMingle</a></h3>
-                                <ul>
-                                    <li>• Discord Bot for my server.</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h3><a href="https://github.com/saini-gk/Librix" id="librix">Librix</a></h3>
-                                <ul>
-                                    <li>• Library Management System using PHP, MySQL, and HTML.</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section text-center py-5">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Programming Languages</h4>
+                    <p>C, C++, Python, PHP, HTML, CSS</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Frameworks & Libraries</h4>
+                    <p>TensorFlow, Keras, OpenCV</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Tools</h4>
+                    <p>GitHub, Git, MySQL, Google Cloud</p>
                 </div>
             </div>
         </div>
+    </section>
 
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="timeline-icon"><img src="/PNG Files/skill.png" width="50" height="50"></div>
-                <div class="timeline-content">
-                    <section id="skills">
-                        <h2>Technical Skills</h2>
-                        <ul>
-                            <li>Languages: C/C++, PHP, Python, HTML, MySQL</li>
-                            <li>Developer Tools: GitHub, Google Cloud Platform, LinuxOS</li>
-                            <li>Problem Solving: 350+ LeetCode problems solved</li>
-                        </ul>
-                    </section>
-                </div>
-            </div>
-        </div>
-
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="timeline-icon"><img src="/PNG Files/cert.png" width="50" height="50"></div>
-                <div class="timeline-content">
-                    <section id="certifications">
-                        <h2>Certifications</h2>
-                        <ul>
-                            <li>
-                                <h3><a href="https://drive.google.com/file/d/1sc3cTaIqNfeBFbaG13_dqPahcP75N0ma/view?usp=drivesdk">Deep Learning</a></h3>
-                                <p>Computer Society of India | Aug 2023</p>
-                                <h3><a href="https://drive.google.com/file/d/1sX3G4_GqMwIT860IWBYL4zY4QtlksEA_/view?usp=drivesdk">Machine Learning</a></h3>
-                                <p>Computer Society of India | May 2023</p>
-                            </li>
-                        </ul>
-                    </section>
-                </div>
-            </div>
-        </div>
-
-        <section id="contact" class="mt-5">
-            <h2>Contact</h2>
-            <p>Feel free to reach out via email or connect on these platforms:</p>
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section text-center py-5">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p>I'm open to new opportunities and collaborations. Feel free to reach out to me!</p>
             <div class="contact-links">
-                <a href="mailto:gunjnkumar07@gmail.com" target="_blank" title="Email"><img src="/PNG Files/envelope.png" alt="email" width="24" height="24"></a>
-                <a href="https://www.linkedin.com/in/sainigk" target="_blank" title="LinkedIn"><img src="/PNG Files/linkedin.png" alt="linkedin" width="24" height="24"></a>
-                <a href="https://github.com/saini-gk" target="_blank" title="GitHub"><img src="/PNG Files/github.png" alt="github" width="24" height="24"></a>
+                <a href="mailto:gunjnkumar07@gmail.com" class="btn btn-dark">Email Me</a>
+                <a href="https://www.linkedin.com/in/sainigk" class="btn btn-dark">LinkedIn</a>
+                <a href="https://github.com/saini-gk" class="btn btn-dark">GitHub</a>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <footer class="bg-dark text-light text-center py-3 mt-5">
-            <div class="container">
-                <p class="mb-0">© 2024 Gunjan. All rights reserved. Site developed with ❤️ by Gunjan.</p>
-            </div>
-        </footer>
-        
-        <!-- Bootstrap JS and Custom Script -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <script src="script.js"></script> 
-    </body> 
+    <!-- Footer -->
+    <footer class="footer text-center py-3">
+        <p>&copy; 2024 Gunjan Kumar. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 </html>
