@@ -1,186 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gunjan Kumar - Portfolio</title>
-    <meta name="description" content="Portfolio of Gunjan Kumar - Developer & AI Enthusiast">
-    <link rel="icon" href="Project Images/port.png" type="image/png">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gunjan Kumar Portfolio</title>
+
+<link rel="icon" href="Project Images/port.png">
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="80">
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow-sm" aria-label="Main navigation">
-        <a class="navbar-brand font-weight-bold" href="#">Gunjan Kumar</a>
-        <button id="menuToggle" class="menu-toggle" aria-label="Open mobile menu" aria-expanded="false" aria-controls="mobileMenu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
-                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
+
+<body>
+
+<canvas id="particles"></canvas>
+
+<button class="toggle-btn">🌙</button>
+
+<div class="floating-nav">
+  <div class="nav-container">
+    <a href="#" class="nav-pill active" data-section="hero">
+      <i class="fas fa-home"></i> Home
+    </a>
+    <a href="#" class="nav-pill" data-section="projects">
+      <i class="fas fa-folder-open"></i> Projects
+    </a>
+    <a href="#" class="nav-pill" data-section="skills">
+      <i class="fas fa-code"></i> Skills
+    </a>
+    <a href="#" class="nav-pill" data-section="contact">
+      <i class="fas fa-envelope"></i> Contact
+    </a>
+  </div>
+</div>
+
+<section id="hero" class="hero-section">
+  <div class="container">
+    <h1>Hi, I'm <span id="typed"></span></h1>
+    <p class="tagline">Building creative & intelligent experiences</p>
+    <a href="#" class="btn main-btn scroll-btn" data-target="projects">Explore Projects</a>
+  </div>
+</section>
+
+<section id="projects" class="portfolio-section">
+  <div class="container">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <img src="Project Images/VisionNova.jpg" alt="VisionNova">
+        <div class="overlay">
+          <a href="https://github.com/saini-gk/VisionNova" target="_blank" class="code-btn">
+            <i class="fas fa-code"></i> Code
+          </a>
         </div>
-        <nav id="mobileMenu" class="mobile-menu" aria-hidden="true">
-            <a class="nav-link" href="#about">About Me</a>
-            <a class="nav-link" href="#projects">Projects</a>
-            <a class="nav-link" href="#skills">Skills</a>
-            <a class="nav-link" href="#contact">Contact</a>
-        </nav>
-    </nav>
-    <section class="hero-section d-flex align-items-center justify-content-center text-center">
-        <div class="container">
-            <h1 class="display-4 font-weight-bold mb-3">Hi, I'm Gunjan Kumar</h1>
-            <p class="lead mb-4">A Passionate Developer &amp; AI Enthusiast</p>
-            <a href="#projects" class="btn btn-primary btn-lg shadow" tabindex="0">View My Work <i class="fas fa-arrow-down ml-2"></i></a>
+        <h5><a href="https://github.com/saini-gk/VisionNova" target="_blank">VisionNova</a></h5>
+        <p>AI-powered image restoration system.</p>
+      </div>
+
+      <div class="project-card">
+        <img src="Project Images/GenAge-Nexus.jpg" alt="GenAge Nexus">
+        <div class="overlay">
+          <a href="https://github.com/saini-gk/GenAge-Nexus" target="_blank" class="code-btn">
+            <i class="fas fa-code"></i> Code
+          </a>
         </div>
-        <div class="header-overlay"></div>
-    </section>
-    <section id="about" class="about-section text-center py-5">
-        <div class="container">
-            <h2 class="section-title mb-4">About Me</h2>
-            <p class="mb-3">Hello! I'm <strong>Gunjan Kumar</strong>, a computer science student with a keen interest in <strong>Artificial Intelligence</strong>, <strong>Machine Learning</strong>, and <strong>full-stack web development</strong>. I specialize in creating intelligent systems and building full-fledged applications. In my free time, I love contributing to open-source projects and learning new technologies.</p>
-            <p>Feel free to explore my work below and get in touch with me for potential collaborations or opportunities!</p>
+        <h5><a href="https://github.com/saini-gk/GenAge-Nexus" target="_blank">GenAge Nexus</a></h5>
+        <p>Age & gender detection in real time.</p>
+      </div>
+
+      <div class="project-card">
+        <img src="Project Images/DetectronX.jpg" alt="DetectronX">
+        <div class="overlay">
+          <a href="https://github.com/saini-gk/DetectronX" target="_blank" class="code-btn">
+            <i class="fas fa-code"></i> Code
+          </a>
         </div>
-    </section>
-    <section id="projects" class="portfolio-section py-5">
-        <div class="container">
-            <h2 class="section-title text-center mb-5">Projects</h2>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch">
-                    <div class="card project-card w-100 shadow-sm">
-                        <div class="project-card-img-wrapper">
-                            <img src="Project Images/VisionNova.jpg" class="card-img-top" alt="Screenshot of VisionNova project">
-                        </div>
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title"><a href="https://github.com/saini-gk/VisionNova" target="_blank" rel="noopener">VisionNova</a></h5>
-                            <p class="card-text flex-grow-1">A Python-based image enhancer using deep learning to restore corrupted images.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch">
-                    <div class="card project-card w-100 shadow-sm">
-                        <div class="project-card-img-wrapper">
-                            <img src="Project Images/GenAge-Nexus.jpg" class="card-img-top" alt="Screenshot of GenAge-Nexus project">
-                        </div>
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title"><a href="https://github.com/saini-gk/GenAge-Nexus" target="_blank" rel="noopener">GenAge Nexus</a></h5>
-                            <p class="card-text flex-grow-1">Real-time age and gender classification using OpenCV and SSD. Achieved 85% accuracy.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch">
-                    <div class="card project-card w-100 shadow-sm">
-                        <div class="project-card-img-wrapper">
-                            <img src="Project Images/DetectronX.jpg" class="card-img-top" alt="Screenshot of DetectronX project">
-                        </div>
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title"><a href="https://github.com/saini-gk/DetectronX" target="_blank" rel="noopener">DetectronX</a></h5>
-                            <p class="card-text flex-grow-1">Object Detection System built using TensorFlow, Keras, and OpenCV. Optimized for real-time performance.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch">
-                    <div class="card project-card w-100 shadow-sm">
-                        <div class="project-card-img-wrapper">
-                            <img src="Project Images/MetaMingle.jpg" class="card-img-top" alt="Screenshot of MetaMingle project">
-                        </div>
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title"><a href="https://github.com/saini-gk/MetaMingle" target="_blank" rel="noopener">MetaMingle</a></h5>
-                            <p class="card-text flex-grow-1">A Discord bot for managing servers and automating tasks for community managers.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch">
-                    <div class="card project-card w-100 shadow-sm">
-                        <div class="project-card-img-wrapper">
-                            <img src="Project Images/Librix.jpg" class="card-img-top" alt="Screenshot of Librix project">
-                        </div>
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title"><a href="https://github.com/saini-gk/Librix" target="_blank" rel="noopener">Librix</a></h5>
-                            <p class="card-text flex-grow-1">Library Management System using PHP, MySQL, and HTML. Improved transaction speed by 25%.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="skills" class="skills-section text-center py-5">
-        <div class="container">
-            <h2 class="section-title mb-4">My Skills</h2>
-            <div class="row justify-content-center">
-                <div class="col-md-4 mb-3">
-                    <h4><i class="fas fa-code mr-2"></i>Programming Languages</h4>
-                    <span class="badge badge-primary m-1">C</span>
-                    <span class="badge badge-primary m-1">C++</span>
-                    <span class="badge badge-primary m-1">Python</span>
-                    <span class="badge badge-primary m-1">PHP</span>
-                    <span class="badge badge-primary m-1">HTML</span>
-                    <span class="badge badge-primary m-1">CSS</span>
-                </div>
-                <div class="col-md-4 mb-3">
-                    <h4><i class="fas fa-cubes mr-2"></i>Frameworks &amp; Libraries</h4>
-                    <span class="badge badge-success m-1">TensorFlow</span>
-                    <span class="badge badge-success m-1">Keras</span>
-                    <span class="badge badge-success m-1">OpenCV</span>
-                </div>
-                <div class="col-md-4 mb-3">
-                    <h4><i class="fas fa-tools mr-2"></i>Tools</h4>
-                    <span class="badge badge-dark m-1">GitHub</span>
-                    <span class="badge badge-dark m-1">Git</span>
-                    <span class="badge badge-dark m-1">MySQL</span>
-                    <span class="badge badge-dark m-1">Google Cloud</span>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="contact" class="contact-section text-center py-5">
-        <div class="container">
-            <h2 class="section-title mb-4">Get in Touch</h2>
-            <p class="mb-4">I'm open to new opportunities and collaborations. Feel free to reach out to me!</p>
-            <div class="contact-links d-flex flex-wrap justify-content-center">
-                <a href="mailto:gunjnkumar07@gmail.com" class="btn btn-outline-light m-2" tabindex="0"><i class="fas fa-envelope mr-2"></i>Email Me</a>
-                <a href="https://www.linkedin.com/in/sainigk" class="btn btn-outline-light m-2" target="_blank" rel="noopener"><i class="fab fa-linkedin mr-2"></i>LinkedIn</a>
-                <a href="https://github.com/saini-gk" class="btn btn-outline-light m-2" target="_blank" rel="noopener"><i class="fab fa-github mr-2"></i>GitHub</a>
-            </div>
-        </div>
-    </section>
-    <footer class="footer text-center py-3">
-        <p class="mb-0">&copy; 2025 Gunjan Kumar. All rights reserved.</p>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
-    <script>
-      window.addEventListener('scroll', function() {
-        const navbar = document.querySelector('.navbar');
-        if (window.scrollY > 10) {
-          navbar.classList.add('shadow');
-        } else {
-          navbar.classList.remove('shadow');
-        }
-      });
-      document.addEventListener('DOMContentLoaded', function() {
-        window.addEventListener('resize', function() {
-          if (window.innerWidth > 991) {
-            document.body.classList.remove('nav-open');
-          }
-        });
-    document.querySelectorAll('.nav-link').forEach(function(link) {
-      link.addEventListener('click', function() {
-        if (window.innerWidth <= 991) {
-          document.body.classList.remove('nav-open');
-          document.getElementById('menuToggle').setAttribute('aria-expanded', 'false');
-          document.getElementById('mobileMenu').setAttribute('aria-hidden', 'true');
-        }
-      });
-    });
-  });
-</script>
+        <h5><a href="https://github.com/saini-gk/DetectronX" target="_blank">DetectronX</a></h5>
+        <p>Object detection optimized for speed.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="skills-section">
+  <h2 class="section-title">Skills</h2>
+  <p><strong>Languages:</strong> C, C++, Python, PHP, HTML, CSS</p>
+  <p><strong>Frameworks:</strong> TensorFlow, Keras, OpenCV</p>
+  <p><strong>Tools:</strong> Git, GitHub, MySQL, Linux, Cloud</p>
+</section>
+
+<section id="contact" class="contact-section">
+  <h2 class="section-title">Let's Connect</h2>
+  <div class="contact-btn-container">
+    <a href="mailto:gunjnkumar07@gmail.com" class="btn contact-btn">
+      <i class="fas fa-envelope"></i> Email
+    </a>
+    <a href="https://github.com/saini-gk" target="_blank" class="btn contact-btn">
+      <i class="fab fa-github"></i> GitHub
+    </a>
+    <a href="https://www.linkedin.com/in/sainigk" target="_blank" class="btn contact-btn">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+  </div>
+</section>
+
+<footer class="footer">
+  © 2026 Gunjan Kumar
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
